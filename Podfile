@@ -7,7 +7,9 @@ target 'FBIntegration' do
 
   # Pods for FBIntegration
 
-   pod 'FBSDKLoginKit'
+  pod 'FacebookCore'
+  pod 'FacebookLogin'
+  pod 'FacebookShare'
 
   target 'FBIntegrationTests' do
     inherit! :search_paths
