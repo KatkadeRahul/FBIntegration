@@ -6,7 +6,8 @@ target 'FBIntegration' do
   use_frameworks!
 
   # Pods for FBIntegration
-pod 'FBSDKLoginKit'
+
+   pod 'FBSDKLoginKit'
 
   target 'FBIntegrationTests' do
     inherit! :search_paths
